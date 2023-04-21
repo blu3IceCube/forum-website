@@ -10,7 +10,7 @@ export default function Navbar() {
                         <input class="form-control form-search" type="search" placeholder="Search" aria-label="Search"/>
                     </form>
                     <button type="button" class="btn btn-post">
-                        <i className="fa-solid fa-plus h5" style={{color: "#9abcb9"}}></i> 
+                        <i className="fa-solid fa-plus h5"></i> 
                     </button>
                 </div>
             </div>
