@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 8vh;
+}
+
+a {
+    padding: 0;
+}
+
+.navbar > .nav-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-search {
+    background-color: rgba(169, 169, 169, 0.208);
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+    width: 22rem;
+}
+
+.form-search:focus {
+    outline: none;
+    background-color: rgba(188, 187, 187, 0.068);
+    box-shadow: none;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    flex-grow: 1;
+}
+
+.btn-post {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+i {
+    padding: 0 !important;
+    margin: 0 !important;
+}
