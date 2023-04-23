@@ -5,6 +5,8 @@ export default function Content() {
     return (
         <main>
             <Card/>
+            <Card/>
+            <Card/>
         </main>
     )
 }
